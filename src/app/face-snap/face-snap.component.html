@@ -1,0 +1,16 @@
+
+
+<div class="face-snap-card" [ngClass]="{ 'snapped': buttonText ==='Oh no unsnap' }">
+    <h2>{{faceSnap.title | uppercase}}</h2>
+    <p>Mis en ligne le {{faceSnap.createdDate | date}}</p> 
+    <button (click)="onViewFaceSnap()">View</button>
+    
+
+</div>
+
+
+
+ <!-- {{}} is called string interpolation   -->
+
+
+
